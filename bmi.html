@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <title>Tekathon BMI</title>
+    <link rel="stylesheet" href="bmi.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+    <script type="text/javascript" src="bmi.js">
+
+    </script>
+  </head>
+  <body  >
+
+    <div style="font-size:48px;  margin-bottom:20px;"><img style="width: 20%; height: auto; margin: 15px "src="https://www.keynectup.com/wp-content/uploads/2015/07/TEKSystems-Logo.png" id="logo"/>&nbsp;Anonymous!</div>
+
+    <form class="bmi" name="bmiForm" >
+      <input type="button" value="Back" onclick="window.location.href='index.html'" /><br /><br />
+      Your Weight(kg): <input type="text" name="weight" size="10"><br /><br />
+      Your Height(cm): <input type="text" name="height" size="10"><br /><br />
+      <input type="button" value="Calculate BMI" onClick="calculateBmi()"><br /><br />
+      Your BMI: <input type="text" name="bmi" size="10"><br /><br />
+      This Means: <input type="text" name="meaning" size="25"><br /><br />
+      <input type="reset" value="Reset" />
+    </form>
+
+  </body>
+</html>

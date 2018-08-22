@@ -1,0 +1,12 @@
+
+.bmi{
+  font: 20px sans-serif;
+  margin: auto;
+  margin-top: 5em;
+    width: 50%;
+    border: 1px solid grey;
+    box-shadow: 3px 3px 1px grey;
+    z-index: 1;
+    padding: 10px;
+}
+  body { margin-left:20px; margin-top:20px; margin-bottom:30px;  height:100%;}

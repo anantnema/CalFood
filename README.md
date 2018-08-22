@@ -1,5 +1,5 @@
 # CalFood
-It will identify the food and gives you the calorie of the food item in KCal/100g
+It will identify the food using CLARIFAI api and gives you the calorie of the food item in KCal/100g
 
 
 ## Usage

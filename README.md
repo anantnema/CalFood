@@ -1,11 +1,6 @@
-# javascript-starter
-A few simple examples to help you get started using the Clarifai Javascript client and API
+# CalFood
+It will identify the food and gives you the calorie of the food item in KCal/100g
 
-## How to get started
-Download this repo, simply invoke  
-```script
-$ npm install
-```
 
 ## Usage
 
@@ -21,10 +16,3 @@ You'll notice that in the `.gitignore` file, it references a `keys.js` file. Thi
 var myApiKey = 'YOUR API KEY HERE';
 ```
 
-You'll also notice a custom_train.js file which serves as a reference for Custom Training. Any custom models that you create (under these credentials) will appear in the dropdown menu on index.html, next to the "Custom" label
-
-## Example Output
-
-<img src="https://s3.amazonaws.com/jared-clarifai-stuff/Screen+Shot+2017-01-05+at+4.04.37+PM.png"/>
-
-Note the "Add image to Application" button on the bottom left of the image. This will automatically add the image to the application that is associated with your key!
